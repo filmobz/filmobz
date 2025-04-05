@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZoneCinema - Обзоры фильмов</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ZoneCinema</h1>
+    <nav>
+      <a href="#">Главная</a>
+      <a href="#reviews">Обзоры</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Добро пожаловать на ZoneCinema!</h2>
+      <p>Здесь ты найдешь обзоры на фильмы: Оно, Как приручить дракона, Гадкий Я, Чаки и другие.</p>
+    </section>
+
+    <section id="reviews">
+      <h2>Обзоры</h2>
+      <div class="movie">
+        <h3>Оно (2017)</h3>
+        <p>Ужастик по Стивену Кингу, отличный актёрский состав и жуткая атмосфера.</p>
+      </div>
+      <div class="movie">
+        <h3>Как приручить дракона</h3>
+        <p>Анимационный фильм с глубоким сюжетом и красивой анимацией.</p>
+      </div>
+      <div class="movie">
+        <h3>Гадкий Я (все части)</h3>
+        <p>Весёлая история с миньонами, подходит для всей семьи.</p>
+      </div>
+      <div class="movie">
+        <h3>Чаки (все части)</h3>
+        <p>Культовая серия ужасов с куклой-убийцей. Не для слабонервных!</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Связаться с нами</h2>
+      <p>Email: zonecinema@example.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ZoneCinema. Все права защищены.</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+header {
+  background-color: #20232a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #61dafb;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.movie {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-left: 5px solid #61dafb;
+}
+
+footer {
+  background-color: #20232a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}zonecinema/
+│
+├── index.html
+├── style.css
+├── it.html                ← Оно
+├── dragon.html            ← Как приручить дракона
+├── despicableme.html      ← Гадкий Я
+└── chucky.html            ← Чаки<!-- ... до section #reviews всё оставь как есть ... -->
+<section id="reviews">
+  <h2>Обзоры</h2>
+  <div class="movie">
+    <h3><a href="it.html">Оно (2017)</a></h3>
+    <p>Жуткий фильм по Стивену Кингу.</p>
+  </div>
+  <div class="movie">
+    <h3><a href="dragon.html">Как приручить дракона</a></h3>
+    <p>Анимация, дружба и приключения.</p>
+  </div>
+  <div class="movie">
+    <h3><a href="despicableme.html">Гадкий Я (все части)</a></h3>
+    <p>Миньоны и забавный суперзлодей.</p>
+  </div>
+  <div class="movie">
+    <h3><a href="chucky.html">Чаки (все части)</a></h3>
+    <p>Культовый хоррор о кукле-убийце.</p>
+  </div>
+</section><!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Оно (2017) — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Оно (2017)</h1>
+    <nav>
+      <a href="index.html">Назад на главную</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <p><strong>Жанр:</strong> Ужасы, триллер</p>
+      <p>Фильм «Оно» по роману Стивена Кинга — это история о детях, которые сталкиваются с древним злом в образе клоуна Пеннивайза. Отличная атмосфера страха, запоминающиеся сцены и глубокая драма.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ZoneCinema</p>
+  </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Как приручить дракона — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Как приручить дракона</h1>
+    <nav>
+      <a href="index.html">Назад на главную</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/a/a8/How_to_Train_Your_Dragon_poster.jpg" alt="Как приручить дракона" width="300" />
+      <p><strong>Жанр:</strong> Анимация, фэнтези, приключения</p>
+      <p>Захватывающая история дружбы между мальчиком и драконом. Великолепная анимация, трогательный сюжет и потрясающая музыка. Один из лучших мультфильмов своего времени.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ZoneCinema</p>
+  </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Гадкий Я — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Гадкий Я (все части)</h1>
+    <nav>
+      <a href="index.html">Назад на главную</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Despicable_Me_Poster.jpg" alt="Гадкий Я" width="300" />
+      <p><strong>Жанр:</strong> Анимация, комедия, семейный</p>
+      <p>История злодея Грю, который неожиданно становится отцом для трёх девочек. Весёлые миньоны, юмор для всей семьи и добрый посыл — вот за что мы любим эту франшизу.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ZoneCinema</p>
+  </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Чаки — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Чаки (все части)</h1>
+    <nav>
+      <a href="index.html">Назад на главную</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/6a/Child%27s_Play.jpg" alt="Чаки" width="300" />
+      <p><strong>Жанр:</strong> Ужасы, триллер</p>
+      <p>Классика хоррора: кукла, одержимая духом маньяка, терроризирует семью. Серия фильмов вызывает и страх, и интерес благодаря харизме Чаки. Идеально для фанатов хорроров.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ZoneCinema</p>
+  </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Чаки — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Чаки (все части)</h1>
+    <nav>
+      <a href="index.html">Назад на главную</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/6a/Child%27s_Play.jpg" alt="Чаки" width="300" />
+      <p><strong>Жанр:</strong> Ужасы, триллер</p>
+      <p>Классика хоррора: кукла, одержимая духом маньяка, терроризирует семью. Серия фильмов вызывает и страх, и интерес благодаря харизме Чаки. Идеально для фанатов хорроров.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ZoneCinema</p>
+  </footer>
+</body>
+</html># Повторно определим словарь файлов, т.к. он утерян после сбоя
+files = {
+    "index.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>ZoneCinema - Обзоры фильмов</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ZoneCinema</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="#reviews">Обзоры</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+  <main>
+    <section id="intro">
+      <h2>Добро пожаловать на ZoneCinema!</h2>
+      <p>Здесь ты найдешь обзоры на фильмы: Оно, Как приручить дракона, Гадкий Я, Чаки и другие.</p>
+    </section>
+    <section id="reviews">
+      <h2>Обзоры</h2>
+      <div class="movie"><h3><a href="it.html">Оно (2017)</a></h3><p>Жуткий фильм по Стивену Кингу.</p></div>
+      <div class="movie"><h3><a href="dragon.html">Как приручить дракона</a></h3><p>Анимация, дружба и приключения.</p></div>
+      <div class="movie"><h3><a href="despicableme.html">Гадкий Я (все части)</a></h3><p>Миньоны и забавный суперзлодей.</p></div>
+      <div class="movie"><h3><a href="chucky.html">Чаки (все части)</a></h3><p>Культовый хоррор о кукле-убийце.</p></div>
+    </section>
+    <section id="contact">
+      <h2>Связаться с нами</h2>
+      <p>Email: zonecinema@example.com</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 ZoneCinema. Все права защищены.</p>
+  </footer>
+</body>
+</html>""",
+    "style.css": """body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+header {
+  background-color: #20232a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: #61dafb;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+}
+.movie {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-left: 5px solid #61dafb;
+}
+footer {
+  background-color: #20232a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}""",
+    "it.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Оно (2017) — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Оно (2017)</h1><nav><a href="index.html">Назад на главную</a></nav></header>
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/4/4a/It_2017_poster.jpg" width="300" alt="Оно">
+      <p><strong>Жанр:</strong> Ужасы, триллер</p>
+      <p>Фильм «Оно» по роману Стивена Кинга — это история о детях, которые сталкиваются с древним злом в образе клоуна Пеннивайза.</p>
+    </article>
+  </main>
+  <footer><p>&copy; 2025 ZoneCinema</p></footer>
+</body>
+</html>""",
+    "dragon.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Как приручить дракона — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Как приручить дракона</h1><nav><a href="index.html">Назад на главную</a></nav></header>
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/a/a8/How_to_Train_Your_Dragon_poster.jpg" width="300" alt="Как приручить дракона">
+      <p><strong>Жанр:</strong> Анимация, фэнтези, приключения</p>
+      <p>История дружбы между мальчиком и драконом. Великолепная анимация и трогательный сюжет.</p>
+    </article>
+  </main>
+  <footer><p>&copy; 2025 ZoneCinema</p></footer>
+</body>
+</html>""",
+    "despicableme.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Гадкий Я — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Гадкий Я (все части)</h1><nav><a href="index.html">Назад на главную</a></nav></header>
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Despicable_Me_Poster.jpg" width="300" alt="Гадкий Я">
+      <p><strong>Жанр:</strong> Анимация, комедия, семейный</p>
+      <p>История злодея Грю, который неожиданно становится отцом для трёх девочек. Весёлые миньоны, юмор для всей семьи и добрый посыл — вот за что мы любим эту франшизу.</p>
+    </article>
+  </main>
+  <footer><p>&copy; 2025 ZoneCinema</p></footer>
+</body>
+</html>""",
+    "chucky.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Чаки — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Чаки (все части)</h1><nav><a href="index.html">Назад на главную</a></nav></header>
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/6a/Child%27s_Play.jpg" width="300" alt="Чаки">
+      <p><strong>Жанр:</strong> Ужасы, триллер</p>
+      <p>Классика хоррора: кукла, одержимая духом маньяка, терроризирует семью. Серия фильмов вызывает и страх, и интерес благодаря харизме Чаки.</p>
+    </article>
+  </main>
+  <footer><p>&copy; 2025 ZoneCinema</p></footer>
+</body>
+</html>"""
+}
+
+# Создаем zip-файл
+zip_path = "/mnt/data/zonecinema.zip"
+with zipfile.ZipFile(zip_path, 'w') as zipf:
+    for filename, content in files.items():
+        file_path = f"/mnt/data/{filename}"
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        zipf.write(file_path, arcname=filename)
+
+zip_path# Повторно определим словарь файлов, т.к. он утерян после сбоя
+files = {
+    "index.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>ZoneCinema - Обзоры фильмов</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ZoneCinema</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="#reviews">Обзоры</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+  <main>
+    <section id="intro">
+      <h2>Добро пожаловать на ZoneCinema!</h2>
+      <p>Здесь ты найдешь обзоры на фильмы: Оно, Как приручить дракона, Гадкий Я, Чаки и другие.</p>
+    </section>
+    <section id="reviews">
+      <h2>Обзоры</h2>
+      <div class="movie"><h3><a href="it.html">Оно (2017)</a></h3><p>Жуткий фильм по Стивену Кингу.</p></div>
+      <div class="movie"><h3><a href="dragon.html">Как приручить дракона</a></h3><p>Анимация, дружба и приключения.</p></div>
+      <div class="movie"><h3><a href="despicableme.html">Гадкий Я (все части)</a></h3><p>Миньоны и забавный суперзлодей.</p></div>
+      <div class="movie"><h3><a href="chucky.html">Чаки (все части)</a></h3><p>Культовый хоррор о кукле-убийце.</p></div>
+    </section>
+    <section id="contact">
+      <h2>Связаться с нами</h2>
+      <p>Email: zonecinema@example.com</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 ZoneCinema. Все права защищены.</p>
+  </footer>
+</body>
+</html>""",
+    "style.css": """body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+header {
+  background-color: #20232a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: #61dafb;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+}
+.movie {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-left: 5px solid #61dafb;
+}
+footer {
+  background-color: #20232a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}""",
+    "it.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Оно (2017) — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Оно (2017)</h1><nav><a href="index.html">Назад на главную</a></nav></header>
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/4/4a/It_2017_poster.jpg" width="300" alt="Оно">
+      <p><strong>Жанр:</strong> Ужасы, триллер</p>
+      <p>Фильм «Оно» по роману Стивена Кинга — это история о детях, которые сталкиваются с древним злом в образе клоуна Пеннивайза.</p>
+    </article>
+  </main>
+  <footer><p>&copy; 2025 ZoneCinema</p></footer>
+</body>
+</html>""",
+    "dragon.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Как приручить дракона — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Как приручить дракона</h1><nav><a href="index.html">Назад на главную</a></nav></header>
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/a/a8/How_to_Train_Your_Dragon_poster.jpg" width="300" alt="Как приручить дракона">
+      <p><strong>Жанр:</strong> Анимация, фэнтези, приключения</p>
+      <p>История дружбы между мальчиком и драконом. Великолепная анимация и трогательный сюжет.</p>
+    </article>
+  </main>
+  <footer><p>&copy; 2025 ZoneCinema</p></footer>
+</body>
+</html>""",
+    "despicableme.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Гадкий Я — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Гадкий Я (все части)</h1><nav><a href="index.html">Назад на главную</a></nav></header>
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Despicable_Me_Poster.jpg" width="300" alt="Гадкий Я">
+      <p><strong>Жанр:</strong> Анимация, комедия, семейный</p>
+      <p>История злодея Грю, который неожиданно становится отцом для трёх девочек. Весёлые миньоны, юмор для всей семьи и добрый посыл — вот за что мы любим эту франшизу.</p>
+    </article>
+  </main>
+  <footer><p>&copy; 2025 ZoneCinema</p></footer>
+</body>
+</html>""",
+    "chucky.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Чаки — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Чаки (все части)</h1><nav><a href="index.html">Назад на главную</a></nav></header>
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/6a/Child%27s_Play.jpg" width="300" alt="Чаки">
+      <p><strong>Жанр:</strong> Ужасы, триллер</p>
+      <p>Классика хоррора: кукла, одержимая духом маньяка, терроризирует семью. Серия фильмов вызывает и страх, и интерес благодаря харизме Чаки.</p>
+    </article>
+  </main>
+  <footer><p>&copy; 2025 ZoneCinema</p></footer>
+</body>
+</html>"""
+}
+
+# Создаем zip-файл
+zip_path = "/mnt/data/zonecinema.zip"
+with zipfile.ZipFile(zip_path, 'w') as zipf:
+    for filename, content in files.items():
+        file_path = f"/mnt/data/{filename}"
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        zipf.write(file_path, arcname=filename)
+
+zip_path# Повторно определим словарь файлов, т.к. он утерян после сбоя
+files = {
+    "index.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>ZoneCinema - Обзоры фильмов</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ZoneCinema</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="#reviews">Обзоры</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+  <main>
+    <section id="intro">
+      <h2>Добро пожаловать на ZoneCinema!</h2>
+      <p>Здесь ты найдешь обзоры на фильмы: Оно, Как приручить дракона, Гадкий Я, Чаки и другие.</p>
+    </section>
+    <section id="reviews">
+      <h2>Обзоры</h2>
+      <div class="movie"><h3><a href="it.html">Оно (2017)</a></h3><p>Жуткий фильм по Стивену Кингу.</p></div>
+      <div class="movie"><h3><a href="dragon.html">Как приручить дракона</a></h3><p>Анимация, дружба и приключения.</p></div>
+      <div class="movie"><h3><a href="despicableme.html">Гадкий Я (все части)</a></h3><p>Миньоны и забавный суперзлодей.</p></div>
+      <div class="movie"><h3><a href="chucky.html">Чаки (все части)</a></h3><p>Культовый хоррор о кукле-убийце.</p></div>
+    </section>
+    <section id="contact">
+      <h2>Связаться с нами</h2>
+      <p>Email: zonecinema@example.com</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 ZoneCinema. Все права защищены.</p>
+  </footer>
+</body>
+</html>""",
+    "style.css": """body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+header {
+  background-color: #20232a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: #61dafb;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+}
+.movie {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-left: 5px solid #61dafb;
+}
+footer {
+  background-color: #20232a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}""",
+    "it.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Оно (2017) — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Оно (2017)</h1><nav><a href="index.html">Назад на главную</a></nav></header>
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/4/4a/It_2017_poster.jpg" width="300" alt="Оно">
+      <p><strong>Жанр:</strong> Ужасы, триллер</p>
+      <p>Фильм «Оно» по роману Стивена Кинга — это история о детях, которые сталкиваются с древним злом в образе клоуна Пеннивайза.</p>
+    </article>
+  </main>
+  <footer><p>&copy; 2025 ZoneCinema</p></footer>
+</body>
+</html>""",
+    "dragon.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Как приручить дракона — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Как приручить дракона</h1><nav><a href="index.html">Назад на главную</a></nav></header>
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/a/a8/How_to_Train_Your_Dragon_poster.jpg" width="300" alt="Как приручить дракона">
+      <p><strong>Жанр:</strong> Анимация, фэнтези, приключения</p>
+      <p>История дружбы между мальчиком и драконом. Великолепная анимация и трогательный сюжет.</p>
+    </article>
+  </main>
+  <footer><p>&copy; 2025 ZoneCinema</p></footer>
+</body>
+</html>""",
+    "despicableme.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Гадкий Я — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Гадкий Я (все части)</h1><nav><a href="index.html">Назад на главную</a></nav></header>
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Despicable_Me_Poster.jpg" width="300" alt="Гадкий Я">
+      <p><strong>Жанр:</strong> Анимация, комедия, семейный</p>
+      <p>История злодея Грю, который неожиданно становится отцом для трёх девочек. Весёлые миньоны, юмор для всей семьи и добрый посыл — вот за что мы любим эту франшизу.</p>
+    </article>
+  </main>
+  <footer><p>&copy; 2025 ZoneCinema</p></footer>
+</body>
+</html>""",
+    "chucky.html": """<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Чаки — ZoneCinema</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Чаки (все части)</h1><nav><a href="index.html">Назад на главную</a></nav></header>
+  <main>
+    <article>
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/6a/Child%27s_Play.jpg" width="300" alt="Чаки">
+      <p><strong>Жанр:</strong> Ужасы, триллер</p>
+      <p>Классика хоррора: кукла, одержимая духом маньяка, терроризирует семью. Серия фильмов вызывает и страх, и интерес благодаря харизме Чаки.</p>
+    </article>
+  </main>
+  <footer><p>&copy; 2025 ZoneCinema</p></footer>
+</body>
+</html>"""
+}
+
+# Создаем zip-файл
+zip_path = "/mnt/data/zonecinema.zip"
+with zipfile.ZipFile(zip_path, 'w') as zipf:
+    for filename, content in files.items():
+        file_path = f"/mnt/data/{filename}"
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        zipf.write(file_path, arcname=filename)
+
+zip_path
